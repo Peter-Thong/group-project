@@ -202,3 +202,17 @@ body {
   margin: 7px 0;
   color: #333;
 }
+
+.header-results {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("./images/earth.jpg");
+}
+
+.header-main-text p {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.header-main-text p:last-child {
+  margin-bottom: 50px;
+}
