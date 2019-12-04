@@ -185,8 +185,16 @@ Game */
   line-height: 2rem;
 }
 
+.photo__alien{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 2rem;
+}
+
 .alien__photo {
-  margin: auto 2rem;
+
   width: 10rem;
   height: 10rem;
 }
