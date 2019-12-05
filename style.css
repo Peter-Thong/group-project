@@ -415,7 +415,10 @@ Game */
 .result {
   padding: 3.5rem 0;
   text-align: center;
+  
 }
+
+
 
 .btn__result {
   font-size: 1.5rem;
@@ -424,10 +427,21 @@ Game */
   border-radius: 100px;
   border: none;
   background-color: #a4c7f2;
-  position: relative;
   overflow: hidden;
   color: white;
   margin-top: -8rem;
+  position: relative;
+}
+
+.btn__special2{
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.btn__special1{
+  transform: translateX(50%);
+  opacity: 0;
+  z-index: 1;
 }
 
 .btn__result:focus {
